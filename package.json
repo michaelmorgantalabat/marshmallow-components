@@ -77,9 +77,6 @@
     "type": "git",
     "url": "https://github.com/michaelmorgantalabat/marshmallow-components.git"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
