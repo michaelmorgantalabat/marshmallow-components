@@ -1,10 +1,11 @@
 import React, { FC, ButtonHTMLAttributes } from 'react';
 import styled from 'styled-components';
+import './tailwind.css';
 
 const StyledButton = styled.button.attrs(
   ({ variant }: { variant: ButtonVariants }) => ({
     className: `px-8 py-2 font-semibold ${
-      variant === 'default' ? 'text-white' : 'text-red-700'
+      variant === 'default' ? 'text-white' : 'text-primary'
     } transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-red-300 to-blue-300 hover:from-pink-400 hover:to-indigo-400`,
   })
 )<{ variant: ButtonVariants }>``;
